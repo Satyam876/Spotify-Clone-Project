@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Best Music Player</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand-logo"><img src="/IMAGES/spotify-logo-png-7053.png">SPOTIFY</li>
+            <li>Home</li>
+            <li>Premium</li>
+            <!-- <li>Support</li> -->
+            <li>Sign In</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+            <div class="songlist">
+                <h1>H E A R T L E S S <i class="fa-solid fa-heart-crack"></i></h1>
+                <p>FOLLOWING  <i class="fa-solid fa-circle-check"></i></p>
+                <div class="song-item">
+                    <img  alt="1">
+                    <span class="songName">The Night We Met</span>
+                    <span class="songitemplay"><span>05:34 </span>
+                    <i id="1" class="fa-sharp fa-solid songPlay fa-circle-play"></i>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="song-item">
+                    <img alt="2">
+                    <span class="songName">Naadan Parindey</span>
+                    <span class="songitemplay"><span>03:59 </span>
+                    <i id="2" class="fa-sharp fa-solid songPlay fa-circle-play"></i>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="song-item">
+                    <img alt="3">
+                    <span id="song-3" class="songName">Blinding Lights</span>
+                    <span class="songitemplay"><span>04:34 </span>
+                    <i id="3" class="fa-sharp fa-solid songPlay fa-circle-play"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="song-item">
+                    <img alt="4">
+                    <span id="song-4" class="songName">Teri Yaad</span>
+                    <span class="songitemplay"><span>03:00 </span>
+                    <i id="4" class="fa-sharp fa-solid songPlay fa-circle-play"></i>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="song-item">
+                    <img alt="5">
+                    <span id="song-5" class="songName">Choo Lo</span>
+                    <span class="songitemplay"><span>02:46</span>
+                    <i id="5" class="fa-sharp fa-solid songPlay fa-circle-play"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="song-item">
+                    <img  alt="6">
+                    <span id="song-6" class="songName">O Bedardaya</span>
+                    <span class="songitemplay"><span>05:00</span>
+                    <i id="6" class="fa-sharp fa-solid songPlay fa-circle-play"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <!-- <div class="song-banner">
+                <img src="/IMAGES/peakpx (1).jpg" alt="">
+            </div> -->
+    </div>
+    <div class="bottom">
+        <div class="play-logo">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i id="masterPlay" class="fa-regular fa-circle-play"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="current-song-info">
+            <img src="/IMAGES/The_Night_We_Met.jpg" id = "crr-img" alt=""><span id="masterSongName">The Night We Met</span>
+            <!-- <img src="/IMAGES/4O1T.gif" id="img-1"alt="">    -->
+        </div>
+        <input type="range" name="range" id="myProgressBar" value = "0" min="0" max="100">
+    </div>
+    <script src="https://kit.fontawesome.com/cd64e64071.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

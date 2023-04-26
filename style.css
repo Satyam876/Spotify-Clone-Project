@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: center / cover no-repeat url("/IMAGES/vinicius-amnx-amano-ABaMFrKOGng-unsplash.jpg");
+    background-color: black;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    list-style: none;
+    /* background-color: black; */
+    color: whitesmoke;
+    height: 70px;
+    /* backdrop-filter: blur(20px); */
+}
+
+nav ul li{
+    padding: 0px 39px;
+    cursor: pointer;
+}
+
+.brand-logo img{
+    width: 40px;
+    margin: 0 20px;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 880px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container{
+    min-height: 65vh; 
+    /* background:center / cover no-repeat url("/IMAGES/gaston-roulstone-kZXq6QOdcNk-unsplash.jpg"); */
+    /* opacity: 0.9; */ 
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    /* width: 70%; */
+    /* margin: 23px auto; */
+    margin: 0 auto;
+    padding: 34px;
+    /* background-color: black; */
+    /* border-radius: 25px; */
+    color: white;
+}
+
+.bottom{
+    position: sticky;
+    /* background-color: rgb(38, 37, 37); */
+    /* background-color: black; */
+    height: 92px;
+    padding: 6px 5px;
+    backdrop-filter: blur(20px);
+}
+
+.bottom input{
+    padding: 22px 0;    
+    padding-bottom: 10px;
+}
+#myProgressBar{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.play-logo{
+    color: white;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.play-logo i{
+    padding: 0 7px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.songlist h1{
+    margin: 25px 70px;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    /* color: rgb(16, 187, 16); */
+    color: rgb(203, 31, 31);
+    font-size: 2.2rem;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songlist p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    /* color: rgb(16, 187, 16); */
+}
+
+.songlist p i{
+    margin: 0 10px;
+}
+
+.song-item{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    /* background-color: rgb(78, 75, 75); */
+    margin: 12px 0;
+    padding: 0 10px;
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
+    backdrop-filter: blur(420px);
+}
+
+.song-item span{
+    padding: 14px 0;
+}
+
+#song-3{
+    padding-right:25px;
+}
+
+#song-4{
+    padding-right: 67px;
+}
+
+#song-5{
+    padding-right: 72px;
+}
+
+#song-6{
+    padding-right: 38px;
+}
+
+
+.song-item img{
+    height: 40px;
+    margin-right: 25px;
+    border:1px solid black;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+
+.songitemplay{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.song-item i{
+    margin-left: 60px;
+}
+
+.song-banner{
+    display: flex;
+    flex-direction: row-reverse;
+    /* height: 50px; */
+    background-color: white;
+    width: 50%;
+    margin: 25px 40px;
+    height: 55vh;
+}
+
+.song-banner img{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.current-song-info{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: rgb(58, 238, 58);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: -15px 0;
+}
+
+.current-song-info span{
+    padding-bottom: 10px;
+}
+
+#crr-img{
+    height: 60px;
+    border-radius: 8px;
+    margin-left: 23px;
+    margin-right: 20px;
+}
+
+.current-song-info img-1{
+    opacity: 1;
+    transition: opacity is ease-in;
+    margin: 0 32px;
+}
